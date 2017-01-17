@@ -1,0 +1,411 @@
+{
+  "index.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "js/update.js",
+      "list.html"
+    ],
+    "refer": [
+      "index-menu.html",
+      "list.html"
+    ]
+  },
+  "examples/tab-webview-subpage-contact.html": {
+    "resources": [
+      "images/60x60.gif"
+    ],
+    "refer": []
+  },
+  "examples/tab-webview-main.html": {
+    "resources": [
+      "examples/tab-webview-subpage-about.html",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "examples/tab-webview-subpage-setting.html",
+      "examples/tab-webview-subpage-chat.html",
+      "examples/tab-webview-subpage-contact.html",
+      "examples/tab-webview-subpage-about.html"
+    ]
+  },
+  "list.html": {
+    "refer": [
+      "examples/template.html",
+      "examples/tab-webview-main.html",
+      "examples/pullrefresh_main.html",
+      "examples/guide.html",
+      "examples/info.html",
+      "examples/accordion.html",
+      "examples/dtpicker.html",
+      "examples/date.html",
+      "examples/tableviews-with-swipe.html",
+      "examples/clouddb_wilddog.html",
+      "examples/beecloud.html",
+      "examples/locker-dom.html",
+      "examples/login.html",
+      "examples/setting.html",
+      "examples/actionsheet.html",
+      "examples/actionsheet-plus.html",
+      "examples/barcode.html",
+      "examples/tabbar.html",
+      "examples/range.html",
+      "examples/radio.html",
+      "examples/feedback.html",
+      "examples/indexed-list.html",
+      "examples/indexed-list-select.html",
+      "examples/buttons.html",
+      "examples/buttons-with-icons.html",
+      "examples/ajax.html",
+      "examples/badges.html",
+      "examples/imageviewer.html",
+      "examples/im-chat.html",
+      "examples/dialog.html",
+      "examples/typography.html",
+      "examples/switches.html",
+      "examples/lazyload-image.html",
+      "examples/echarts.html",
+      "examples/ad.html",
+      "examples/checkbox.html",
+      "examples/grid-default.html",
+      "examples/grid-pagination.html",
+      "examples/plugin.html"
+    ],
+    "resources": []
+  },
+  "examples/pullrefresh_main.html": {
+    "resources": [
+      "examples/pullrefresh_sub.html"
+    ],
+    "refer": [
+      "examples/pullrefresh_sub.html"
+    ]
+  },
+  "examples/guide.html": {
+    "resources": [
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/info.html": {
+    "resources": [
+      "images/qrcode.png",
+      "js/mui.min.js",
+      "css/app.css",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/accordion.html": {
+    "resources": [
+      "images/cbd.jpg",
+      "images/muwu.jpg",
+      "images/yuantiao.jpg",
+      "css/app.css",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "images/shuijiao.jpg"
+    ],
+    "refer": []
+  },
+  "examples/dtpicker.html": {
+    "resources": [
+      "js/mui.picker.min.js",
+      "css/app.css",
+      "css/mui.min.css",
+      "css/mui.picker.min.css"
+    ],
+    "refer": []
+  },
+  "index-menu.html": {
+    "refer": [
+      "examples/offcanvas-drag-left.html"
+    ],
+    "resources": [
+      "css/mui.min.css"
+    ]
+  },
+  "examples/offcanvas-drag-left.html": {
+    "resources": [
+      "css/mui.min.css",
+      "js/mui.min.js",
+      "fonts/mui.ttf"
+    ],
+    "refer": []
+  },
+  "examples/tableviews-with-swipe.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/app.css",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/clouddb_wilddog.html": {
+    "resources": [
+      "css/mui.min.css",
+      "js/mui.min.js",
+      "fonts/mui.ttf"
+    ],
+    "refer": []
+  },
+  "examples/beecloud.html": {
+    "resources": [
+      "js/beecloud.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/locker-dom.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/app.css",
+      "css/mui.min.css",
+      "js/mui.locker.js"
+    ],
+    "refer": []
+  },
+  "examples/login.html": {
+    "resources": [
+      "css/mui.min.css",
+      "images/login-1.png",
+      "css/app.css",
+      "js/mui.min.js"
+    ],
+    "refer": []
+  },
+  "examples/setting.html": {
+    "resources": [
+      "css/feedback.css",
+      "images/logo.png",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "js/feedback.js",
+      "js/mui.view.js"
+    ],
+    "refer": [
+      "examples/guide.html"
+    ]
+  },
+  "examples/actionsheet.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/app.css",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/actionsheet-plus.html": {
+    "resources": [
+      "css/app.css",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/template.html": {
+    "resources": [
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/barcode.html": {
+    "resources": [
+      "images/barcode.png",
+      "js/common.js",
+      "css/common.css",
+      "js/mui.min.js"
+    ],
+    "refer": [
+      "examples/barcode_scan.html"
+    ]
+  },
+  "examples/tabbar.html": {
+    "resources": [
+      "css/app.css",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/range.html": {
+    "resources": [
+      "css/app.css",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/radio.html": {
+    "resources": [
+      "css/app.css",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/tab-webview-subpage-about.html": {
+    "resources": [
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/feedback.html": {
+    "resources": [
+      "css/feedback.css",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "js/feedback.js"
+    ],
+    "refer": []
+  },
+  "examples/indexed-list.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/mui.indexedlist.css",
+      "js/mui.indexedlist.js"
+    ],
+    "refer": []
+  },
+  "examples/indexed-list-select.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/mui.indexedlist.css",
+      "js/mui.indexedlist.js"
+    ],
+    "refer": []
+  },
+  "examples/buttons.html": {
+    "resources": [
+      "css/app.css",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/badges.html": {
+    "resources": [
+      "css/mui.min.css",
+      "css/app.css"
+    ],
+    "refer": []
+  },
+  "examples/ajax.html": {
+    "resources": [
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/imageviewer.html": {
+    "resources": [
+      "js/mui.zoom.js",
+      "images/muwu.jpg",
+      "images/yuantiao.jpg",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "js/mui.previewimage.js",
+      "images/shuijiao.jpg"
+    ],
+    "refer": []
+  },
+  "examples/pullrefresh_sub.html": {
+    "resources": [
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/barcode_scan.html": {
+    "resources": [
+      "js/common.js",
+      "js/mui.min.js",
+      "css/common.css"
+    ],
+    "refer": []
+  },
+  "examples/im-chat.html": {
+    "resources": [
+      "js/mui.imageViewer.js",
+      "js/mui.min.js",
+      "css/app.css",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/mui.imageviewer.css",
+      "js/arttmpl.js",
+      "images/logo.png"
+    ],
+    "refer": []
+  },
+  "examples/typography.html": {
+    "resources": [
+      "css/app.css",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/lazyload-image.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/app.css",
+      "css/mui.min.css",
+      "js/mui.lazyload.js",
+      "js/mui.lazyload.img.js"
+    ],
+    "refer": []
+  },
+  "examples/switches.html": {
+    "resources": [
+      "css/app.css",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/echarts.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/app.css",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "libs/echarts-all.js"
+    ],
+    "refer": []
+  },
+  "examples/ad.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/checkbox.html": {
+    "resources": [
+      "css/app.css",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/grid-default.html": {
+    "resources": [
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/grid-pagination.html": {
+    "resources": [
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/plugin.html": {
+    "resources": [
+      "css/app.css"
+    ]
+  }
+}
