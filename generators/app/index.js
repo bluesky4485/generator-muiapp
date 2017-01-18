@@ -59,7 +59,6 @@ module.exports = Generator.extend({
   },
 
   writing: function() {
-    this.log(this.props);
     // 需要替换项目名称内容的文件：HBuilder-Hello.iml、.idea\modules.xml、.idea\workspace.xml、app\src\main\res\values\strings.xml
 
     var readmeTmpl = _.template(this.fs.read(this.templatePath('./base/README.md')));
