@@ -18,7 +18,7 @@ yo muiapp
 
 ### Install form local
 ```
-git https://github.com/bluesky4485/generator-muiapp.git
+git clone https://github.com/bluesky4485/generator-muiapp.git
 cd generator-muiapp
 npm install
 npm link
