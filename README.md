@@ -7,12 +7,21 @@ First, install [Yeoman](http://yeoman.io) and generator-muiapp using [npm](https
 
 ```bash
 npm install -g yo
-npm install -g generator-muiapp
+npm install -g bluesky4485/generator-muiapp
 ```
 
 Then generate your new project:
 
 ```bash
+yo muiapp
+```
+
+### Install form local
+```
+git https://github.com/bluesky4485/generator-muiapp.git
+cd generator-muiapp
+npm install
+npm link
 yo muiapp
 ```
 
