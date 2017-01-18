@@ -71,7 +71,7 @@ module.exports = Generator.extend({
     fse.copy(this.templatePath('gradle'), this.destinationPath('gradle'));
 
     var strings_tpl = _.template(this.fs.read(this.templatePath('./base/strings.xml')));
-    this.fs.write(this.destinationPath('app\\src\\main\\res\\values\\strings.xml'), strings_tpl({ project_name: this.props.projectName }));
+    this.fs.write(this.destinationPath('app/src/main/res/values/strings.xml'), strings_tpl({ project_name: this.props.projectName }));
 
     this.fs.copy(
       this.templatePath('.gitignore'),
@@ -98,7 +98,7 @@ module.exports = Generator.extend({
     //另外app\src\main\assets\apps\MuiApp，MuiApp这个目录名要变
 
     var tpl_www_path = this.templatePath('www');
-    var dest_www_path = this.destinationPath('app\\src\\main\\assets\\apps\\' + this.props.projectName + "\\www");
+    var dest_www_path = this.destinationPath('app/src/main/assets/apps/' + this.props.projectName + "/www");
 
     fse.copy(this.templatePath('app'), this.destinationPath('app'), function(eror) {
       if (eror) return this.log("copy app dir error.");
@@ -107,17 +107,17 @@ module.exports = Generator.extend({
     });
 
     var manifest_tpl = _.template(this.fs.read(this.templatePath('./base/manifest.json')));
-    this.fs.write(this.destinationPath('app\\src\\main\\assets\\apps\\' + this.props.projectName + '\\www\\manifest.json'), manifest_tpl({ project_name: this.props.projectName }));
+    this.fs.write(this.destinationPath('app/src/main/assets/apps/' + this.props.projectName + '/www/manifest.json'), manifest_tpl({ project_name: this.props.projectName }));
 
     var control_tpl = _.template(this.fs.read(this.templatePath('./base/control.xml')));
-    this.fs.write(this.destinationPath('app\\src\\main\\assets\\data\\control.xml'), control_tpl({ project_name: this.props.projectName }));
+    this.fs.write(this.destinationPath('app/src/main/assets/data/control.xml'), control_tpl({ project_name: this.props.projectName }));
 
     //app\build.gradle中的applicationId需要修改，否则新生成的app均是一样的，安装时会将原来的覆盖掉，同样修改AndroidManifest.xml中的package
     var build_gradle_tpl = _.template(this.fs.read(this.templatePath('./base/build.gradle')));
-    this.fs.write(this.destinationPath('app\\build.gradle'), build_gradle_tpl({ applicationId: this.props.applicationId }));
+    this.fs.write(this.destinationPath('app/build.gradle'), build_gradle_tpl({ applicationId: this.props.applicationId }));
 
     var androidmanifest_tpl = _.template(this.fs.read(this.templatePath('./base/AndroidManifest.xml')));
-    this.fs.write(this.destinationPath('app\\src\\main\\AndroidManifest.xml'), androidmanifest_tpl({ applicationId: this.props.applicationId }));
+    this.fs.write(this.destinationPath('app/src/main/AndroidManifest.xml'), androidmanifest_tpl({ applicationId: this.props.applicationId }));
 
   },
 
