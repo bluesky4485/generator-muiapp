@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.0"
 
     defaultConfig {
-        applicationId "io.dcloud.HBuilder.Hello"
+        applicationId "<%= applicationId%>"
         minSdkVersion 8
         targetSdkVersion 8
     }

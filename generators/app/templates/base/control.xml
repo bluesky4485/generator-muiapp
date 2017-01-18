@@ -1,5 +1,5 @@
 <hbuilder version="1.9.9.28326">
     <apps>
-        <app appid="MuiApp" appver="1.5.3" />
+        <app appid="<%= project_name%>" appver="1.5.3" />
     </apps>
 </hbuilder>
